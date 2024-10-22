@@ -4,8 +4,6 @@ import './input.css'; // Importa o arquivo de estilos
 import { Link } from 'react-router-dom';
 
 function App() {
-
-
   return (
     <>
       <div className="container">
