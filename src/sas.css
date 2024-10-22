@@ -1,0 +1,73 @@
+/* App.css */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 24px;
+    color: #343a40;
+    margin-bottom: 20px;
+  }
+  
+  .user-item {
+    background-color: #f1f3f5;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .user-item h3 {
+    margin: 0;
+    color: #495057;
+  }
+  
+  .user-item p {
+    color: #868e96;
+  }
+  
+  .vote-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .vote-button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .vote-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .voted {
+    background-color: #6c757d;
+    cursor: not-allowed;
+  }
+  
+  .voted:hover {
+    background-color: #6c757d;
+  }
+  
